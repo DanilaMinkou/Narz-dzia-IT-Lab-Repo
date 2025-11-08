@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="narzedzia_it">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="narzedzie" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nazwa" type="xs:string"/>
+              <xs:element name="typ" type="xs:string"/>
+              <xs:element name="funkcje">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="funkcja" type="xs:string" maxOccurs="unbounded"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="cechy" type="xs:string"/>
+              <xs:element name="statystyki">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="analiza" type="xs:string"/>
+                  </xs:sequence>
+                  <xs:attribute name="udzial_w_rynku_2025" type="xs:decimal" use="required"/>
+                  <xs:attribute name="github_stars_2025" type="xs:string" use="required"/>
+                  <xs:attribute name="adopcja_deweloperow_2025" type="xs:decimal" use="required"/>
+                  <xs:attribute name="prognoza_adopcji_2030" type="xs:integer" use="required"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:positiveInteger" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
