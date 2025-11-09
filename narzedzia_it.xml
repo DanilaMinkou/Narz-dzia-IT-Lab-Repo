@@ -3,158 +3,32 @@
               xsi:noNamespaceSchemaLocation="narzedzia_it.xsd">
   <narzedzie id="1">
     <nazwa>Git</nazwa>
-    <typ>System kontroli wersji</typ>
-    <funkcje>
-      <funkcja>Zarządzanie zmianami w kodzie źródłowym poprzez commity i branche</funkcja>
-      <funkcja>Współpraca zespołowa w środowiskach rozproszonych, z obsługą merge requests</funkcja>
-      <funkcja>Integracja z narzędziami CI/CD jak Jenkins lub GitHub Actions</funkcja>
-    </funkcje>
-    <cechy>Rozproszony model pracy, wysoka skalowalność dla dużych projektów (np. Linux kernel z milionami commitów); bezpieczeństwo poprzez hashowanie SHA-1</cechy>
-    <statystyki udzial_w_rynku_2025="93.87" github_stars_2025="Ponad 100 mln repozytoriów" adopcja_deweloperow_2025="87.1" prognoza_adopcji_2030="95">
-      <analiza>Wzrost o 6.77% od 2016 r., dominacja w open-source; wg Stack Overflow, 90% Fortune 100 firm używa Git</analiza>
-    </statystyki>
+    <typ>Wersjonowanie kodu</typ>
+    <funkcja>Zarządzanie zmianami w kodzie</funkcja>
   </narzedzie>
   <narzedzie id="2">
     <nazwa>VS Code</nazwa>
     <typ>Edytor kodu</typ>
-    <funkcje>
-      <funkcja>Pisanie i debugowanie kodu w ponad 100 językach programowania</funkcja>
-      <funkcja>Rozszerzalność poprzez marketplace z tysiącami wtyczek (np. GitLens, Python extension)</funkcja>
-      <funkcja>Wbudowany terminal i wsparcie dla zdalnego developmentu via SSH</funkcja>
-    </funkcje>
-    <cechy>Lekki interfejs, open-source na bazie Electron, IntelliSense dla autouzupełniania; optymalizacja pod Windows/Linux/macOS</cechy>
-    <statystyki udzial_w_rynku_2025="82.5" github_stars_2025="15e6" adopcja_deweloperow_2025="76.4" prognoza_adopcji_2030="85">
-      <analiza>Lider wśród edytorów wg JetBrains State of Developer Ecosystem; wzrost o 10% w edukacji IT</analiza>
-    </statystyki>
+    <funkcja>Pisanie i debugowanie kodu</funkcja>
   </narzedzie>
   <narzedzie id="3">
     <nazwa>Ubuntu</nazwa>
     <typ>System operacyjny</typ>
-    <funkcje>
-      <funkcja>Środowisko deweloperskie z menedżerem pakietów apt dla szybkiej instalacji narzędzi</funkcja>
-      <funkcja>Testy w trybie Live bez instalacji, zarządzanie dyskami via GParted</funkcja>
-      <funkcja>Integracja z chmurą (AWS EC2, Azure VMs) i kontenerami Docker</funkcja>
-    </funkcje>
-    <cechy>Stabilność LTS (Long Term Support) co 2 lata, darmowy model, społeczność ponad 50 mln użytkowników; kernel Linux z customizacjami Canonical</cechy>
-    <statystyki udzial_w_rynku_2025="45.2" github_stars_2025="10 mln pobrań rocznie" adopcja_deweloperow_2025="68.3" prognoza_adopcji_2030="75">
-      <analiza>Dominacja w serwerach (70% rynku Linux); wg W3Techs, wzrost o 5% w desktopach dzięki SteamOS</analiza>
-    </statystyki>
+    <funkcja>Linux do programowania</funkcja>
   </narzedzie>
   <narzedzie id="4">
     <nazwa>JSON</nazwa>
     <typ>Format danych</typ>
-    <funkcje>
-      <funkcja>Serializacja obiektów w strukturach klucz-wartość dla API RESTful</funkcja>
-      <funkcja>Deserializacja w językach jak JavaScript, Python (json module)</funkcja>
-      <funkcja>Obsługa zagnieżdżonych tablic i obiektów dla złożonych danych</funkcja>
-    </funkcje>
-    <cechy>Lekki format tekstowy, brak potrzeby schematu, kompatybilność cross-platform; alternatywa dla XML w web dev</cechy>
-    <statystyki udzial_w_rynku_2025="98" github_stars_2025="Nie dotyczy (standard)" adopcja_deweloperow_2025="95.6" prognoza_adopcji_2030="99">
-      <analiza>Standard w 99% API wg Postman State of the API; wzrost o 3% dzięki NoSQL bazom jak MongoDB</analiza>
-    </statystyki>
+    <funkcja>Serializacja danych w aplikacjach webowych</funkcja>
   </narzedzie>
   <narzedzie id="5">
     <nazwa>LaTeX</nazwa>
     <typ>Język znaczników</typ>
-    <funkcje>
-      <funkcja>Tworzenie dokumentów z zaawansowaną typografią i formułami matematycznymi (pakiet amsmath)</funkcja>
-      <funkcja>Generowanie PDF via pdflatex, zarządzanie bibliografią BibTeX</funkcja>
-      <funkcja>Tabele z pozycjonowaniem [H!], wykresy TikZ</funkcja>
-    </funkcje>
-    <cechy>Precyzyjna kontrola layoutu, automatyzacja numeracji sekcji; używany w publikacjach IEEE/ACM</cechy>
-    <statystyki udzial_w_rynku_2025="12.5" github_stars_2025="5e6" adopcja_deweloperow_2025="34.7" prognoza_adopcji_2030="40">
-      <analiza>Wzrost o 2% w naukach ścisłych wg Overleaf stats; 80% prac dyplomowych w matematyce/fizyce</analiza>
-    </statystyki>
+    <funkcja>Tworzenie dokumentów naukowych</funkcja>
   </narzedzie>
   <narzedzie id="6">
     <nazwa>Terminal</nazwa>
-    <typ>Interfejs wiersza poleceń</typ>
-    <funkcje>
-      <funkcja>Wykonywanie komend systemowych (ls, cd, grep) i skryptów Bash</funkcja>
-      <funkcja>Automatyzacja zadań via cron, monitorowanie zasobów (top, free)</funkcja>
-      <funkcja>Integracja z toolami jak apt dla zarządzania pakietami</funkcja>
-    </funkcje>
-    <cechy>Efektywność w porównaniu do GUI (10x szybsze operacje), cross-platform (Unix/Windows PowerShell)</cechy>
-    <statystyki udzial_w_rynku_2025="99" github_stars_2025="Nie dotyczy" adopcja_deweloperow_2025="92.1" prognoza_adopcji_2030="95">
-      <analiza>Kluczowy w DevOps; wg O'Reilly, 95% inżynierów używa CLI codziennie, redukcja błędów o 20%</analiza>
-    </statystyki>
-  </narzedzie>
-  <narzedzie id="7">
-    <nazwa>Python</nazwa>
-    <typ>Język programowania</typ>
-    <funkcje>
-      <funkcja>Rozwój aplikacji web (Django/Flask), analiza danych (Pandas)</funkcja>
-      <funkcja>AI/ML z bibliotekami TensorFlow/PyTorch, automatyzacja skryptami</funkcja>
-      <funkcja>Integracja z bazami danych i API zewnętrznych</funkcja>
-    </funkcje>
-    <cechy>Czytelna składnia, dynamiczne typowanie, ogromna społeczność; wzrost adopcji dzięki data science</cechy>
-    <statystyki udzial_w_rynku_2025="25.98" github_stars_2025="40e6" adopcja_deweloperow_2025="45.7" prognoza_adopcji_2030="60">
-      <analiza>Wzrost o 7% wg Stack Overflow; 45.7% rekruterów szuka, lider w AI (80% projektów)</analiza>
-    </statystyki>
-  </narzedzie>
-  <narzedzie id="8">
-    <nazwa>Docker</nazwa>
-    <typ>Platforma konteneryzacji</typ>
-    <funkcje>
-      <funkcja>Pakowanie aplikacji w kontenery z izolacją środowisk</funkcja>
-      <funkcja>Deploy via Docker Compose, skalowanie w chmurze</funkcja>
-      <funkcja>Testy jednostkowe w izolowanych kontenerach</funkcja>
-    </funkcje>
-    <cechy>Portowalność cross-platform, redukcja 'works on my machine' błędów; integracja z Kubernetes</cechy>
-    <statystyki udzial_w_rynku_2025="71.1" github_stars_2025="12e6" adopcja_deweloperow_2025="92" prognoza_adopcji_2030="98">
-      <analiza>Wzrost o 12% wg Docker Report; 92% w IT, redukcja czasu deploy o 50%</analiza>
-    </statystyki>
-  </narzedzie>
-  <narzedzie id="9">
-    <nazwa>AWS</nazwa>
-    <typ>Chmura obliczeniowa</typ>
-    <funkcje>
-      <funkcja>Hosting EC2, storage S3, bazy danych RDS</funkcja>
-      <funkcja>AI usługi jak SageMaker, lambda functions dla serverless</funkcja>
-      <funkcja>Monitorowanie via CloudWatch, security IAM</funkcja>
-    </funkcje>
-    <cechy>Skalowalność auto-scaling, model pay-per-use; ekosystem ponad 200 usług</cechy>
-    <statystyki udzial_w_rynku_2025="32" github_stars_2025="Nie dotyczy" adopcja_deweloperow_2025="65.4" prognoza_adopcji_2030="70">
-      <analiza>Lider rynku wg Gartner; 65% firm enterprise, wzrost o 5% dzięki AI integrations</analiza>
-    </statystyki>
-  </narzedzie>
-  <narzedzie id="10">
-    <nazwa>SQL</nazwa>
-    <typ>Język zapytań baz danych</typ>
-    <funkcje>
-      <funkcja>Zapytania SELECT z joins, agregacje GROUP BY</funkcja>
-      <funkcja>Transakcje ACID w bazach relacyjnych (PostgreSQL, MySQL)</funkcja>
-      <funkcja>Optymalizacja zapytań dla big data</funkcja>
-    </funkcje>
-    <cechy>Standaryzowany, wydajny w relacyjnych modelach; integracja z NoSQL hybridami</cechy>
-    <statystyki udzial_w_rynku_2025="47.8" github_stars_2025="Nie dotyczy" adopcja_deweloperow_2025="78.2" prognoza_adopcji_2030="85">
-      <analiza>Używany w 80% aplikacji wg DB-Engines; wzrost o 3% dzięki data analytics</analiza>
-    </statystyki>
-  </narzedzie>
-  <narzedzie id="11">
-    <nazwa>Kubernetes</nazwa>
-    <typ>Orkiestracja kontenerów</typ>
-    <funkcje>
-      <funkcja>Automatyzacja deploymentu pods i services</funkcja>
-      <funkcja>Skalowanie horyzontalne, load balancing</funkcja>
-      <funkcja>Self-healing i rolling updates</funkcja>
-    </funkcje>
-    <cechy>Open-source CNCF, integracja z Docker; złożoność zarządzania dla dużych klastrów</cechy>
-    <statystyki udzial_w_rynku_2025="58.3" github_stars_2025="18e6" adopcja_deweloperow_2025="71.5" prognoza_adopcji_2030="80">
-      <analiza>Wzrost o 25% wg CNCF Survey; 71% w DevOps, redukcja downtime o 40%</analiza>
-    </statystyki>
-  </narzedzie>
-  <narzedzie id="12">
-    <nazwa>Jenkins</nazwa>
-    <typ>Narzędzie CI/CD</typ>
-    <funkcje>
-      <funkcja>Budowanie pipeline'ów z etapami build/test/deploy</funkcja>
-      <funkcja>Integracja z Git, Docker i chmurami</funkcja>
-      <funkcja>Pluginy dla testów automatycznych (JUnit)</funkcja>
-    </funkcje>
-    <cechy>Open-source, skalowalny z agentami; alternatywa dla GitHub Actions</cechy>
-    <statystyki udzial_w_rynku_2025="42.6" github_stars_2025="14000" adopcja_deweloperow_2025="62.8" prognoza_adopcji_2030="70">
-      <analiza>Używany w 60% firm wg Jenkins Survey; redukcja czasu release o 40%</analiza>
-    </statystyki>
+    <typ>Interfejs CLI</typ>
+    <funkcja>Wykonywanie komend systemowych</funkcja>
   </narzedzie>
 </narzedzia_it>

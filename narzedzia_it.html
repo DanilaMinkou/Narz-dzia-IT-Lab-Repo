@@ -2,219 +2,62 @@
 <html lang="pl">
   <head>
     <meta charset="UTF-8" />
-    <title>Narzędzia IT</title>
+    <title>Narzędzia IT – Laboratorium 2</title>
     <style>
-      body {
-        font-family: Arial, sans-serif;
-        margin: 20px;
-      }
-      table {
-        border-collapse: collapse;
-        width: 100%;
-      }
+      table,
       th,
       td {
-        border: 1px solid #ddd;
+        border: 1px solid black;
+        border-collapse: collapse;
         padding: 8px;
-        text-align: left;
-      }
-      th {
-        background-color: #f2f2f2;
-      }
-      h1,
-      h2 {
-        color: #0056b3;
-      }
-      .analiza {
-        margin-top: 20px;
-        font-style: italic;
       }
     </style>
   </head>
   <body>
-    <h1>Narzędzia IT w kontekście programowania i zarządzania projektami</h1>
-    <p>
-      Wstęp: Niniejsza analiza obejmuje 12 kluczowych narzędzi IT, wybranych na
-      podstawie ich znaczenia w branży deweloperskiej. Dane statystyczne
-      pochodzą z raportów Stack Overflow 2025, GitHub Octoverse oraz analiz
-      rynku (np. Gartner, CNCF). Celem jest porównanie funkcjonalności, cech i
-      trendów.
-    </p>
-
-    <h2>Tabela porównawcza narzędzi</h2>
+    <h1>Narzędzia IT – Laboratorium 2</h1>
     <table>
       <tr>
         <th>ID</th>
         <th>Nazwa</th>
         <th>Typ</th>
-        <th>Główne funkcje</th>
-        <th>Cechy</th>
-        <th>Udział w rynku 2025 (%)</th>
-        <th>GitHub stars 2025</th>
-        <th>Adopcja deweloperów 2025 (%)</th>
-        <th>Prognoza adopcji 2030 (%)</th>
-        <th>Analiza</th>
+        <th>Funkcja</th>
       </tr>
       <tr>
         <td>1</td>
         <td>Git</td>
-        <td>System kontroli wersji</td>
-        <td>Zarządzanie zmianami, współpraca, CI/CD integracja</td>
-        <td>Rozproszony, skalowalny</td>
-        <td>93.87</td>
-        <td>Ponad 100 mln repo</td>
-        <td>87.1</td>
-        <td>95</td>
-        <td>Wzrost o 6.77%; dominacja w open-source</td>
+        <td>Wersjonowanie kodu</td>
+        <td>Zarządzanie zmianami</td>
       </tr>
       <tr>
         <td>2</td>
         <td>VS Code</td>
         <td>Edytor kodu</td>
-        <td>Pisanie/debugowanie, wtyczki, terminal</td>
-        <td>Lekki, open-source</td>
-        <td>82.5</td>
-        <td>15 mln</td>
-        <td>76.4</td>
-        <td>85</td>
-        <td>Lider edytorów; wzrost w edukacji</td>
+        <td>Pisanie kodu</td>
       </tr>
       <tr>
         <td>3</td>
         <td>Ubuntu</td>
         <td>System operacyjny</td>
-        <td>Apt zarządzanie, Live testy, chmura integracja</td>
-        <td>Stabilny LTS</td>
-        <td>45.2</td>
-        <td>10 mln pobrań</td>
-        <td>68.3</td>
-        <td>75</td>
-        <td>Dominacja w serwerach; wzrost desktop</td>
+        <td>Linux do programowania</td>
       </tr>
       <tr>
         <td>4</td>
         <td>JSON</td>
         <td>Format danych</td>
-        <td>Serializacja, deserializacja, API</td>
-        <td>Lekki, czytelny</td>
-        <td>98</td>
-        <td>Nie dotyczy</td>
-        <td>95.6</td>
-        <td>99</td>
-        <td>Standard API; wzrost NoSQL</td>
+        <td>Serializacja danych</td>
       </tr>
       <tr>
         <td>5</td>
         <td>LaTeX</td>
         <td>Język znaczników</td>
-        <td>Dokumenty PDF, matematyka, BibTeX</td>
-        <td>Precyzyjna typografia</td>
-        <td>12.5</td>
-        <td>5 mln</td>
-        <td>34.7</td>
-        <td>40</td>
-        <td>Wzrost w naukach; 80% dyplomów</td>
+        <td>Dokumenty naukowe</td>
       </tr>
       <tr>
         <td>6</td>
         <td>Terminal</td>
         <td>Interfejs CLI</td>
-        <td>Komendy, automatyzacja, monitorowanie</td>
-        <td>Efektywny vs GUI</td>
-        <td>99</td>
-        <td>Nie dotyczy</td>
-        <td>92.1</td>
-        <td>95</td>
-        <td>Kluczowy DevOps; 95% codziennie</td>
-      </tr>
-      <tr>
-        <td>7</td>
-        <td>Python</td>
-        <td>Język programowania</td>
-        <td>Web dev, data analysis, AI</td>
-        <td>Czytelna składnia</td>
-        <td>25.98</td>
-        <td>40 mln</td>
-        <td>45.7</td>
-        <td>60</td>
-        <td>Wzrost 7%; lider AI</td>
-      </tr>
-      <tr>
-        <td>8</td>
-        <td>Docker</td>
-        <td>Konteneryzacja</td>
-        <td>Pakowanie, deploy, testy</td>
-        <td>Portowalny</td>
-        <td>71.1</td>
-        <td>12 mln</td>
-        <td>92</td>
-        <td>98</td>
-        <td>Wzrost 12%; redukcja deploy 50%</td>
-      </tr>
-      <tr>
-        <td>9</td>
-        <td>AWS</td>
-        <td>Chmura</td>
-        <td>Hosting, AI, monitoring</td>
-        <td>Skalowalny pay-per-use</td>
-        <td>32</td>
-        <td>Nie dotyczy</td>
-        <td>65.4</td>
-        <td>70</td>
-        <td>Lider Gartner; wzrost AI</td>
-      </tr>
-      <tr>
-        <td>10</td>
-        <td>SQL</td>
-        <td>Język zapytań</td>
-        <td>Zapytania, transakcje, optymalizacja</td>
-        <td>Standaryzowany</td>
-        <td>47.8</td>
-        <td>Nie dotyczy</td>
-        <td>78.2</td>
-        <td>85</td>
-        <td>80% aplikacji; wzrost analytics</td>
-      </tr>
-      <tr>
-        <td>11</td>
-        <td>Kubernetes</td>
-        <td>Orkiestracja</td>
-        <td>Deployment, skalowanie, self-healing</td>
-        <td>CNCF open-source</td>
-        <td>58.3</td>
-        <td>18 mln</td>
-        <td>71.5</td>
-        <td>80</td>
-        <td>Wzrost 25%; redukcja downtime</td>
-      </tr>
-      <tr>
-        <td>12</td>
-        <td>Jenkins</td>
-        <td>CI/CD</td>
-        <td>Pipeline build/test/deploy, pluginy</td>
-        <td>Skalowalny</td>
-        <td>42.6</td>
-        <td>14 tys.</td>
-        <td>62.8</td>
-        <td>70</td>
-        <td>60% firm; redukcja release 40%</td>
+        <td>Komendy systemowe</td>
       </tr>
     </table>
-
-    <h2>Analiza statystyczna</h2>
-    <p class="analiza">
-      Średni udział w rynku: 60.9%; Średnia adopcja: 71.4%. Trendy wskazują na
-      wzrost narzędzi DevOps (Docker +25%, Kubernetes +25%), podczas gdy
-      tradycyjne jak LaTeX pozostają niszowe. Prognoza: Do 2030 r. średnia
-      adopcja wzrośnie do 78%, głównie dzięki AI i chmurom.
-    </p>
-
-    <h2>Wnioski</h2>
-    <p>
-      Narzędzia IT ewoluują ku automatyzacji i skalowalności. Rekomenduję
-      integrację Git + Docker + Kubernetes dla projektów zespołowych, co
-      redukuje błędy o 40-50%. Źródła: Stack Overflow 2025, Docker Report,
-      Gartner Magic Quadrant.
-    </p>
   </body>
 </html>
