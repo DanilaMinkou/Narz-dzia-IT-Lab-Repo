@@ -8,7 +8,16 @@
             <xs:sequence>
               <xs:element name="nazwa" type="xs:string"/>
               <xs:element name="typ" type="xs:string"/>
-              <xs:element name="funkcja" type="xs:string"/>
+              <xs:element name="funkcje">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="funkcja" type="xs:string" maxOccurs="unbounded"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="wersja" type="xs:string" nillable="true"/>
+              <xs:element name="open_source" type="xs:boolean"/>
+              <xs:element name="strona" type="xs:anyURI" minOccurs="0"/>
             </xs:sequence>
             <xs:attribute name="id" type="xs:positiveInteger" use="required"/>
           </xs:complexType>

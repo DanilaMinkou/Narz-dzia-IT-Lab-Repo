@@ -1,34 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<narzedzia_it xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+<?xml-stylesheet type="text/xsl" href="narzedzia_it.xsl"?>
+<narzedzia_it xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
               xsi:noNamespaceSchemaLocation="narzedzia_it.xsd">
+  
+  
   <narzedzie id="1">
     <nazwa>Git</nazwa>
     <typ>Wersjonowanie kodu</typ>
-    <funkcja>Zarządzanie zmianami w kodzie</funkcja>
+    <funkcje>
+      <funkcja>branching i merging</funkcja>
+      <funkcja>pull request</funkcja>
+      <funkcja>stash</funkcja>
+      <funkcja>rebase</funkcja>
+    </funkcje>
+    <wersja>2.46.0</wersja>
+    <open_source>true</open_source>
+    <strona>https://git-scm.com</strona>
   </narzedzie>
+  
   <narzedzie id="2">
     <nazwa>VS Code</nazwa>
     <typ>Edytor kodu</typ>
-    <funkcja>Pisanie i debugowanie kodu</funkcja>
+    <funkcje>
+      <funkcja>IntelliSense</funkcja>
+      <funkcja>debugowanie</funkcja>
+      <funkcja>wbudowany Git</funkcja>
+      <funkcja>rozszerzenia</funkcja>
+    </funkcje>
+    <wersja>1.95</wersja>
+    <open_source>true</open_source>
+    <strona>https://code.visualstudio.com</strona>
   </narzedzie>
+  
   <narzedzie id="3">
     <nazwa>Ubuntu</nazwa>
     <typ>System operacyjny</typ>
-    <funkcja>Linux do programowania</funkcja>
+    <funkcje>
+      <funkcja>apt i snap</funkcja>
+      <funkcja>Live USB</funkcja>
+      <funkcja>LTS</funkcja>
+    </funkcje>
+    <wersja>24.04</wersja>
+    <open_source>true</open_source>
+    <strona>https://ubuntu.com</strona>
   </narzedzie>
+  
   <narzedzie id="4">
     <nazwa>JSON</nazwa>
     <typ>Format danych</typ>
-    <funkcja>Serializacja danych w aplikacjach webowych</funkcja>
+    <funkcje>
+      <funkcja>klucz-wartość</funkcja>
+      <funkcja>tablice</funkcja>
+      <funkcja>zagnieżdżenia</funkcja>
+    </funkcje>
+    <wersja xsi:nil="true"/>
+    <open_source>true</open_source>
   </narzedzie>
+  
   <narzedzie id="5">
     <nazwa>LaTeX</nazwa>
     <typ>Język znaczników</typ>
-    <funkcja>Tworzenie dokumentów naukowych</funkcja>
+    <funkcje>
+      <funkcja>matematyka</funkcja>
+      <funkcja>bibliografia</funkcja>
+      <funkcja>PDF</funkcja>
+    </funkcje>
+    <wersja>TeX Live 2025</wersja>
+    <open_source>true</open_source>
   </narzedzie>
+  
   <narzedzie id="6">
     <nazwa>Terminal</nazwa>
     <typ>Interfejs CLI</typ>
-    <funkcja>Wykonywanie komend systemowych</funkcja>
+    <funkcje>
+      <funkcja>pipe |</funkcja>
+      <funkcja>przekierowania</funkcja>
+      <funkcja>alias</funkcja>
+    </funkcje>
+    <wersja>GNOME Terminal 3.50</wersja>
+    <open_source>true</open_source>
   </narzedzie>
+  
 </narzedzia_it>

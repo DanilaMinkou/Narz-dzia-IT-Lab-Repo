@@ -1,40 +1,80 @@
 {
-  "narzedzia_it": [
+  "tytul": "Narzędzia IT - przykłady języków znaczników i formatów danych",
+  "autor": "Danila Minkou",
+  "data": "2025-11-09",
+  "liczba_narzedzi": 6,
+  "narzedzia": [
     {
       "id": 1,
       "nazwa": "Git",
       "typ": "Wersjonowanie kodu",
-      "funkcja": "Zarządzanie zmianami w kodzie"
+      "funkcje": ["branching", "merging", "pull request", "stash", "rebase"],
+      "wersja": "2.46.0",
+      "open_source": true,
+      "strona": "https://git-scm.com"
     },
     {
       "id": 2,
       "nazwa": "VS Code",
       "typ": "Edytor kodu",
-      "funkcja": "Pisanie i debugowanie kodu"
+      "funkcje": [
+        "IntelliSense",
+        "debugowanie",
+        "wbudowany terminal",
+        "rozszerzenia",
+        "Git integration"
+      ],
+      "wersja": "1.95",
+      "open_source": true,
+      "strona": "https://code.visualstudio.com"
     },
     {
       "id": 3,
       "nazwa": "Ubuntu",
       "typ": "System operacyjny",
-      "funkcja": "Linux do programowania"
+      "funkcje": ["apt", "snap", "Live USB", "serwer/desktop", "LTS"],
+      "wersja": "24.04",
+      "open_source": true,
+      "strona": "https://ubuntu.com"
     },
     {
       "id": 4,
       "nazwa": "JSON",
       "typ": "Format danych",
-      "funkcja": "Serializacja danych w aplikacjach webowych"
+      "funkcje": [
+        "klucz-wartość",
+        "tablice",
+        "zagnieżdżenia",
+        "brak komentarzy",
+        "lekkość"
+      ],
+      "wersja": null,
+      "open_source": true,
+      "strona": "https://json.org"
     },
     {
       "id": 5,
       "nazwa": "LaTeX",
       "typ": "Język znaczników",
-      "funkcja": "Tworzenie dokumentów naukowych"
+      "funkcje": ["matematyka", "bibliografia", "tabele", "spis treści", "PDF"],
+      "wersja": "TeX Live 2025",
+      "open_source": true,
+      "strona": "https://tug.org/latex"
     },
     {
       "id": 6,
       "nazwa": "Terminal",
       "typ": "Interfejs CLI",
-      "funkcja": "Wykonywanie komend systemowych"
+      "funkcje": [
+        "pipe |",
+        "przekierowania > >>",
+        "background &",
+        "alias",
+        "history"
+      ],
+      "wersja": "GNOME Terminal 3.50",
+      "open_source": true,
+      "strona": "https://gnome.org"
     }
   ]
 }

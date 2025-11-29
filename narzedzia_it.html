@@ -2,62 +2,116 @@
 <html lang="pl">
   <head>
     <meta charset="UTF-8" />
-    <title>Narzędzia IT – Laboratorium 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Przykłady języków znaczników i formatów danych - laboratorium 2"
+    />
+    <meta name="author" content="Danila Minkou" />
+    <title>Narzędzia IT - Laboratorium 2 (HTML5 + CSS)</title>
     <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 40px;
+        line-height: 1.6;
+      }
       table,
       th,
       td {
-        border: 1px solid black;
+        border: 1px solid #333;
         border-collapse: collapse;
-        padding: 8px;
+        padding: 10px;
+      }
+      nav {
+        background: #333;
+        padding: 10px;
+      }
+      nav a {
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+      }
+      .animation {
+        animation: pulse 3s infinite;
+      }
+      @keyframes pulse {
+        0% {
+          color: red;
+        }
+        50% {
+          color: blue;
+        }
+        100% {
+          color: red;
+        }
+      }
+      @media (max-width: 600px) {
+        body {
+          font-size: 14px;
+        }
       }
     </style>
   </head>
   <body>
-    <h1>Narzędzia IT – Laboratorium 2</h1>
-    <table>
-      <tr>
-        <th>ID</th>
-        <th>Nazwa</th>
-        <th>Typ</th>
-        <th>Funkcja</th>
-      </tr>
-      <tr>
-        <td>1</td>
-        <td>Git</td>
-        <td>Wersjonowanie kodu</td>
-        <td>Zarządzanie zmianami</td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td>VS Code</td>
-        <td>Edytor kodu</td>
-        <td>Pisanie kodu</td>
-      </tr>
-      <tr>
-        <td>3</td>
-        <td>Ubuntu</td>
-        <td>System operacyjny</td>
-        <td>Linux do programowania</td>
-      </tr>
-      <tr>
-        <td>4</td>
-        <td>JSON</td>
-        <td>Format danych</td>
-        <td>Serializacja danych</td>
-      </tr>
-      <tr>
-        <td>5</td>
-        <td>LaTeX</td>
-        <td>Język znaczników</td>
-        <td>Dokumenty naukowe</td>
-      </tr>
-      <tr>
-        <td>6</td>
-        <td>Terminal</td>
-        <td>Interfejs CLI</td>
-        <td>Komendy systemowe</td>
-      </tr>
-    </table>
+    <header>
+      <h1>Narzędzia IT i języki programowania</h1>
+      <p>Laboratorium 2 - Danila Minkou</p>
+    </header>
+
+    <nav>
+      <a href="#html">HTML</a>
+      <a href="#xml">XML</a>
+      <a href="#json">JSON</a>
+      <a href="#csv">CSV</a>
+    </nav>
+
+    <section id="html">
+      <h2>Przykłady znaczników HTML5</h2>
+      <p>To jest akapit <strong>pogrubiony</strong> i <em>kursywa</em>.</p>
+
+      <ul>
+        <li>Lista nieuporządkowana</li>
+        <li>Drugi element</li>
+      </ul>
+
+      <ol>
+        <li>Lista uporządkowana</li>
+        <li>Drugi element</li>
+      </ol>
+
+      <table>
+        <caption>
+          Tabela narzędzi
+        </caption>
+        <tr>
+          <th>ID</th>
+          <th>Nazwa</th>
+          <th>Typ</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Git</td>
+          <td>Wersjonowanie</td>
+        </tr>
+      </table>
+
+      <img
+        src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png"
+        alt="Logo Git"
+        width="200"
+      />
+
+      <form>
+        <label for="name">Imię:</label>
+        <input type="text" id="name" name="name" /><br /><br />
+        <button type="submit">Wyślij</button>
+      </form>
+
+      <div class="animation">Animacja CSS!</div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Danila Minkou, Politechnika Gdańska</p>
+    </footer>
   </body>
 </html>

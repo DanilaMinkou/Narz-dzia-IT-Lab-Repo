@@ -1,38 +1,34 @@
-# Laboratorium 2: Narzędzia IT i Języki Znaczników
+# Narzędzia IT i języki programowania - Laboratorium 2
 
-## Opis
+**Danila Minkou**, WETI PG, 9 listopada 2025
 
-Repozytorium zawiera dane o 6 narzędziach IT w formatach: CSV, JSON, XML, HTML.
+## Spis treści
 
-### Lista plików
+- [Wstęp](#wstep)
+- [Pokazane technologie](#technologie)
+- [Przykłady składni](#przyklady)
 
-- [narzedzia_it.csv](narzedzia_it.csv)
-- [narzedzia_it.json](narzedzia_it.json)
-- [narzedzia_it.xml](narzedzia_it.xml)
-- [narzedzia_it.xsd](narzedzia_it.xsd)
-- [narzedzia_it.html](narzedzia_it.html)
+## Wstęp
 
-## Tabela narzędzi
+Repozytorium pokazuje **maksymalne wykorzystanie możliwości** języków/formatów danych zgodnie z wymaganiami laboratorium 2.
 
-| ID  | Nazwa    | Typ                | Funkcja                    |
-| --- | -------- | ------------------ | -------------------------- |
-| 1   | Git      | Wersjonowanie kodu | Zarządzanie zmianami       |
-| 2   | VS Code  | Edytor kodu        | Pisanie i debugowanie kodu |
-| 3   | Ubuntu   | System operacyjny  | Linux do programowania     |
-| 4   | JSON     | Format danych      | Serializacja danych        |
-| 5   | LaTeX    | Język znaczników   | Dokumenty naukowe          |
-| 6   | Terminal | Interfejs CLI      | Komendy systemowe          |
+> „Sprawdź aktualizacje i w razie potrzeby zainstaluj.” - Karolina Marciniuk, slajd 4
 
-> **Cytat z lab 2:** „Sprawdź aktualizacje i w razie potrzeby zainstaluj.” – Karolina Marciniuk
+## Pokazane technologie
 
-- **Lista poleceń terminalowych (Ubuntu):**
-  1. `sudo apt update`
-  2. `sudo apt upgrade`
-  3. `sudo apt autoremove`
+| Format   | Użyte elementy                                                                              |
+| -------- | ------------------------------------------------------------------------------------------- |
+| HTML     | '<nav>', '<section>', '<table>', '<form>', '<img>', '<meta>', CSS, media queries, animacje  |
+| XML      | komentarze, atrybuty, zagnieżdżenia, 'xsi:nil', przetwarzanie instrukcje ('xml-stylesheet') |
+| JSON     | zagnieżdżenia, tablice, różne typy ('true', 'null'), obiekty                                |
+| CSV      | nagłówki, różne typy danych, wartości liczbowe i tekstowe                                   |
+| Markdown | nagłówki, tabele, listy, cytaty, kod, pogrubienie, linki, emoji                             |
 
-```bash
-# Przykład z lab 2
-sudo apt update
-free -h
-df -h
-```
+### Przykładowe polecenia terminalowe (z Ubuntu Live)
+
+'''bash
+sudo apt update && sudo apt upgrade -y
+sudo apt autoremove
+free -h # pamięć
+df -h # dysk
+'''
